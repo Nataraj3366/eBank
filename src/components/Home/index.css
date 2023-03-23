@@ -1,0 +1,49 @@
+.home-page-main-container {
+  background-color: #152850;
+  padding: 30px 10%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.website-logo {
+  width: 100px;
+}
+
+.logout-button {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.home-page-bottom-container {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-main-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  text-align: center;
+  font-weight: 500;
+  font-size: 42px;
+}
+
+.visa-card-image {
+  width: 420px;
+}
